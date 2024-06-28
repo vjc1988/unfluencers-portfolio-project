@@ -52,19 +52,30 @@ p {
   line-height: 2;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
 
-.about-section-content {
+.content {
   padding: 160px 20px;
   margin: 30px;
+}
+
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+  font-family: var(--default-font-family);
+}
+
+.content p {
+  font-size: 14px;
 }
 
 .btn-branding {
@@ -109,11 +120,11 @@ p {
     padding: 0;
     text-align: center;
   }
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0px;
   }
-  .about-section-content {
+  .content {
     padding: 0;
   }
 }
