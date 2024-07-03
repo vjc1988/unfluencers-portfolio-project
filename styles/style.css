@@ -60,6 +60,16 @@ nav li.active a {
   color: var(--branding-color);
 }
 
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -134,6 +144,11 @@ nav li.active a {
 
 .logo {
   max-height: 60px;
+}
+
+.social-media-links a {
+  text-align: center;
+  margin: 20px;
 }
 
 @media (max-width: 960px) {
