@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="View The Unfluencers Travel travels around the globe! See our adventures and come along on our journey!"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,37 +35,81 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles/style.css" />
-    <title>Document</title>
+    <title>Our Travels - The Unfluencers Travel</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="homepage">
+          <img
+            src="images/logo-small.jpg"
+            alt="unfluencers logo"
+            class="logo rounded-circle"
+        /></a>
+        <ul>
+          <li class="text-muted">
+            <a href="/" title="homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about-us.html" title="about us" class="text-muted"
+              >About</a
+            >
+          </li>
+          <li class="active">
+            <a href="/work.html" title="our travels">Travels</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="contact us" class="text-muted"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="content">
           <h1 class="mb-5">Take a look at our travels!</h1>
           <div class="row">
             <div class="col-md-6 mb-4">
-              <img src="images/italy.jpg" class="img-fluid rounded" />
+              <img
+                src="images/italy.jpg"
+                class="img-fluid rounded"
+                alt="italy"
+              />
               <h3 class="text-center">Italy, Venice</h3>
               <p class="text-center text-muted">
                 Pasta, Pizza, Gondolas and Gelato
               </p>
             </div>
             <div class="col-md-6 mb-4">
-              <img src="images/norway.jpg" class="img-fluid rounded" />
+              <img
+                src="images/norway.jpg"
+                class="img-fluid rounded"
+                alt="norway"
+              />
               <h3 class="text-center">Tromso, Norway</h3>
               <p class="text-center text-muted">
                 Snow, Huskies, Whales and Reindeers
               </p>
             </div>
             <div class="col-md-6 mb-4">
-              <img src="images/vietnam.jpg" class="img-fluid rounded" />
+              <img
+                src="images/vietnam.jpg"
+                class="img-fluid rounded"
+                alt="vietnam"
+              />
               <h3 class="text-center">Ninh Binh, Vietnam</h3>
               <p class="text-center text-muted">
                 Pho, Rice Paddies, Temples and Motorbikes
               </p>
             </div>
             <div class="col-md-6 mb-4">
-              <img src="images/malaysia.jpg" class="img-fluid rounded" />
+              <img
+                src="images/malaysia.jpg"
+                class="img-fluid rounded"
+                alt="malaysia"
+              />
               <h3 class="text-center">Kuala Lumpur, Malaysia</h3>
               <p class="text-center text-muted">
                 Teh Tarik, Petronas Towers, Rainforest and Durian
@@ -71,5 +119,57 @@
         </div>
       </div>
     </div>
+    <footer>
+      <div
+        class="contact-box-index d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Enquiry</h3>
+          <p class="text-muted">Let's work together!</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            title="contact us"
+            class="btn btn-branding mt-3"
+            >Contact Me</a
+          >
+        </div>
+      </div>
+      <a
+        href="mailto:victoriajaynecadd@yahoo.com"
+        title="email theunfluencerstravel"
+        class="email-link d-flex justify-content-center mb-5 mt-5"
+        >victoriajaynecadd@yahoo.com</a
+      >
+      <div class="social-media-links mb-5 text-center">
+        <a
+          href="https://www.instagram.com/theunfluencerstravel"
+          title="theunfluencerstravel instagram"
+          target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/your.victoriajayne"
+          title="theunfluencerstravel facebook"
+          target="_blank"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a
+          href="https://tiktok.com/@theunfluencerstravel"
+          title="theunfluencerstravel tiktok"
+          target="_blank"
+          ><i class="fa-brands fa-tiktok"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        This project was coded by Victoria Cadd and is
+        <a
+          href="https://github.com/vjc1988/unfluencers-portfolio-project"
+          target="_blank"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>

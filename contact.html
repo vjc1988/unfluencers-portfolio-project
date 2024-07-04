@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact us! Get in touch with The Unfluencers Travel! A UK based travel couple"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,9 +35,37 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles/style.css" />
-    <title>Document</title>
+    <title>Contact Us - The Unfluencers Travel</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="homepage">
+          <img
+            src="images/logo-small.jpg"
+            alt="unfluencers logo"
+            class="logo rounded-circle"
+        /></a>
+        <ul>
+          <li class="text-muted">
+            <a href="/" title="homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about-us.html" title="about us" class="text-muted"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="/work.html" title="our travels" class="text-muted"
+              >Travels</a
+            >
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="contact us">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -41,7 +73,7 @@
             <h1>Let's get in touch!</h1>
             <h3>Email <i class="fa-regular fa-envelope"></i></h3>
             <p>
-              <a href="mailto:victoriajaynecadd@yahoo.com"
+              <a href="mailto:victoriajaynecadd@yahoo.com" title="theunfluencerstravel email"
                 >victoriajaynecadd@yahoo.com</a
               >
             </p>
@@ -50,14 +82,67 @@
               <a
                 href="https://www.instagram.com/theunfluencerstravel"
                 target="_blank"
+                title="theunfluencerstravel instagram"
                 >@theunfluencerstravel</a
               >
             </p>
             <h3>TikTok <i class="fa-brands fa-tiktok"></i></h3>
-            <p>@theunfluencerstravel</p>
+            <p><a href="https://tiktok.com/@theunfluencerstravel" target="_blank" title="theunfluencerstravel tiktok">@theunfluencerstravel</a></a></p>
           </div>
         </div>
       </div>
     </div>
+    <footer>
+      <div
+        class="contact-box-index d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Enquiry</h3>
+          <p class="text-muted">Let's work together!</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            title="contact us"
+            class="btn btn-branding mt-3"
+            >Contact Me</a
+          >
+        </div>
+      </div>
+      <a
+        href="mailto:victoriajaynecadd@yahoo.com"
+        title="email theunfluencerstravel"
+        class="email-link d-flex justify-content-center mb-5 mt-5"
+        >victoriajaynecadd@yahoo.com</a
+      >
+      <div class="social-media-links mb-5 text-center">
+        <a
+          href="https://www.instagram.com/theunfluencerstravel"
+          title="theunfluencerstravel instagram"
+          target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/your.victoriajayne"
+          title="theunfluencerstravel facebook"
+          target="_blank"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a
+          href="https://tiktok.com/@theunfluencerstravel"
+          title="theunfluencerstravel tiktok"
+          target="_blank"
+          ><i class="fa-brands fa-tiktok"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        This project was coded by Victoria Cadd and is
+        <a
+          href="https://github.com/vjc1988/unfluencers-portfolio-project"
+          target="_blank"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
